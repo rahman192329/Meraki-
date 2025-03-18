@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 30px;
+}
+/* navbar styling  */
+nav {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(11, 66, 11);
+    opacity: 80%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo,
+.nav-right {
+    margin: 5px 0;
+}
+
+.logo img {
+    max-width: 100%;
+
+}
+
+.nav-right ul {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-right ul li {
+    font-weight: 700;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: white;
+}
+.nav-right ul li a:hover{
+    color: #dcbb87;
+}
+
+.nav-right ul li button {
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: goldenrod;
+    color: green;
+}
+
+.nav-right ul li button:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid #dcbb87;
+    cursor: pointer;
+}
+
+/* header styling */
+header,
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+    font-weight: bolder;
+    color: brown;
+    text-align: center;
+    align-items: center;
+}
+header {
+    background-image: url(baack.jpg);
+    color: black;
+}
+header,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+.header-content {
+    height: 80vh;
+    background-color: black;
+    opacity: 80%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-content img {
+    width: 50%;
+}
+
+.header-text {
+    align-content: center;
+    text-align: justify;
+    padding-top: 200px;
+}
+.header-text h1, h2{
+    color: white;
+}
+.header-text h1 {
+    background-color: goldenrod;
+    width: 750px;
+    border-radius: 50px;
+    padding: 10px;
+}
+.header-text h1,
+h3,
+.header-text button {
+    margin: 30px ;
+}
+
+.header-text h1 {
+    font-size: 2.8em;
+}
+
+.header-text h3 {
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.book-now a {
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #dcbb87;
+    color: #19232d;
+    margin: 30px 80px;
+}
+
+.book-now a:hover {
+    background-color: #19232d;
+    color: #dcbb87;
+    border: 1px solid #dcbb87;
+    cursor: pointer;
+}
+
+/* main content */
+.heading h2 {
+    margin: 50px 0;
+    font-size: 3em;
+    text-align: center;
+    background-color: green;
+}
+.heading h1 {
+    background-color: rgb(233, 233, 148);
+    
+}
+.section,button:hover {
+    background-color: #dcbb87;
+    color: green;
+    cursor: pointer;
+    padding: 5px;
+}
+.heading p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #19232d;
+    padding: 20px;
+}
+grid {
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+}
+section {
+    background-color: rgb(10, 78, 10);
+    color: white;
+    width: 200px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px #19232d;
+}
+section a {
+    font-size: 1em;
+    color: white;
+}
+.field {
+    background: linear-gradient(30deg,gray, #19232d, gray) ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.field {
+    width: 60%;
+    margin: auto;
+    border-top-right-radius: 40px;
+}
+input {
+    width: 205px;
+    color: green;
+}
+select {
+    width: 300px;
+}
+fieldset {
+    border-bottom: 2px solid green;
+    border-top: 4px solid green;
+    display: flex;
+    align-items: center;
+   
+    box-shadow: 2px 4px 4px #19232d;
+    padding: 10px;
+}
+legend {
+    background-color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: bold;
+    color: green;
+    border: 2px solid rgb(11, 124, 11);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 4px;
+    width: 40%;
+    box-shadow: 2px 4px 4px #19232d;
+}
+
+.headings {
+    text-align: justify;
+    width: 900px;
+    padding-left: 30px;
+}
+.headings ol {
+    text-align: justify;
+}
+.headings li {
+    text-align: justify;
+}
+.section {
+    text-align: center;
+
+}
+.section-2 p {
+    align-items: center;
+}
+.section-1 {
+    background-image: url(practice.jpg);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.section-1 {
+    padding-top: 50px;
+}
+.section-1 p {
+    padding-top: 50px;
+}
+.section-2 {
+    background-image: url(culinary.jpg);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.section-2 {
+    padding-top: 50px;
+}
+.section-2 p {
+    padding-top: 50px;
+}
+.section-3 {
+    background-image: url(skill.jpg);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.section-3 {
+    padding-top: 50px;
+}
+.section-3 p {
+    padding-top: 50px;
+}
+.services {
+    display: flex;
+}
+
+.service-content {
+    text-align: center;
+}
+
+.service-content img {
+    max-width: 60%;
+    border-radius: 10px;
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.124);
+}
+
+.service-content h3 {
+    margin: 10px 0 0 60px;
+    text-align: start;
+    font-size: 1.0em;
+}
+
+.service-content p {
+    margin: 10px 65px 20px 60px;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.destination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-width: 100%;
+    
+}
+
+.item {
+    border-radius: 20px;
+    margin: 50px;
+    background-color: white;
+    padding-bottom: 10px;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.item img {
+    width: 314px;
+    height: 280px;
+    border-radius: 20px 20px 0 0px;
+}
+
+.item p {
+    font-size: 0.9em;
+    margin: 30px 0 0 15px;
+
+}
+
+.right-element {
+    display: inline-block;
+}
+
+span {
+    display: flex;
+    justify-content: space-around;
+}
+/* subscribe section */
+.subscribe-section {
+    text-align: center;
+   
+}
+
+.subscribe-section form input[type="email"] {
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #fdf8f1;
+    padding: 12px 80px 12px 10px;
+    margin: 0 10px;
+}
+.subscribe-section form input[type="text"] {
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #fdf8f1;
+    padding: 12px 80px 12px 10px;
+    margin: 0 10px;
+}
+.subscribe-section form input[type="number"] {
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #fdf8f1;
+    padding: 12px 80px 12px 10px;
+    margin: 0 10px;
+}
+.subscribe-section form select {
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #fdf8f1;
+    padding: 12px 80px 12px 10px;
+    margin: 10px 10px;
+}
+.subscribe-section form input[type="submit"] {
+    border: none;
+    background-color: #dcbb87;
+    color: #19232d;
+    padding: 12px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.subscribe-section form {
+    margin: 40px 0;
+}
+
+.subscribe-section form input[type="submit"]:hover {
+    background-color: #19232d;
+    color: #dcbb87;
+    border: 1px solid #dcbb87;
+    cursor: pointer;
+}
+
+/* footer section */
+footer {
+    font-family: Helvetica, sans-serif;
+    max-height: 100%;
+    background-color: #19232d;
+    opacity: 90%;
+    color: black;
+    padding: 10px;
+}
+
+.footer-container {
+    background-color:  rgb(10, 78, 10);
+    opacity: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 10px;
+}
+.footer-content h3{
+    padding-bottom: 8px;
+    border-bottom: 2px solid #dcbb87;
+    color: white;
+}
+
+.footer-content ul {
+    text-align: justify;
+    list-style: none;
+}
+
+.footer-content ul li {
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.footer-content img {
+    margin-top: 20px;
+}
+
+.rights {
+    text-align: center;
+    font-size: 1.0em;
+    padding: 10px;
+    color: white;
+
+}
+.social-media{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}

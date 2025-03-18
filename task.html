@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code</title>
+    <style>
+        body {
+            padding: 20px;
+            text-align: center;
+        }
+       h1 {
+        font-style: italic;
+        color: brown;
+       }
+       input {
+        background-color: aquamarine;
+        border: 10px;
+        padding: 10px;
+       }
+       button {
+        background-color: aquamarine;
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <input type="text" id="textInput" placeholder="Enter text or URL">
+        <button id="generateBtn">Generate QR Code</button>
+        <div id="qrCode"></div>
+    </div>
+     <script src="https://cdn.jsdelivr.net/npm/qr-code-styling/lib/qr-code-styling.js"></script>
+    <script src="qrcode.js"></script> 
+    
+</body>
+</html>
